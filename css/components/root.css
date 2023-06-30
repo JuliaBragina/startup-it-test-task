@@ -1,0 +1,9 @@
+.root{
+  margin: 0 auto;
+  min-width: 320px;
+  background-color: #EEE;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  position: relative;
+}
