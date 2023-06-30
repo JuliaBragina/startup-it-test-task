@@ -1,6 +1,5 @@
 const header = document.querySelector('.header');
-const headerContainer = header.querySelector('.header__container');
-const burgerMenuButton = headerContainer.querySelector('.header__bottom');
+const burgerMenuButton = header.querySelector('.header__bottom');
 
 burgerMenuButton.addEventListener('click', () => {
   const burgerMenu = document.querySelector('.burgerMenu');

@@ -11,14 +11,16 @@
 
   <body class="root">
     <header class="header">
-      <div class="header__container">
+      <div class="container">
         <img src="./img/logo.svg" class="logo" alt="logo">
-        <ul class="header__menu navigation">
-          <li class="header__item"><a href="#" class="navigation__link" target="_blank">О компании</a></li>
-          <li class="header__item"><a href="#" class="navigation__link" target="_blank">Услуги</a></li>
-          <li class="header__item"><a href="#" class="navigation__link" target="_blank">Контакты</a></li>
-        </ul>
-        <button type="button" class="header__bottom"></button>
+        <nav class="navigation">
+          <ul class="header__menu">
+            <li class="header__item"><a href="#" class="navigation__link" target="_blank">О компании</a></li>
+            <li class="header__item"><a href="#" class="navigation__link" target="_blank">Услуги</a></li>
+            <li class="header__item"><a href="#" class="navigation__link" target="_blank">Контакты</a></li>
+          </ul>
+          <button type="button" class="header__bottom"></button>
+        </nav>
       </div>
     </header>
 
@@ -40,18 +42,20 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__container">
+      <div class="container container_direction_column">
         <img src="./img/logo.svg" class="logo footer__img" alt="logo">
         <p class="footer__copywrite">&copy; 2016-2022 startup-it.ru</p>
       </div>
     </footer>
 
     <section class="burgerMenu">
-      <ul class="burgerMenu__menu navigation">
-        <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">О компании</a></li>
-        <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">Услуги</a></li>
-        <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">Контакты</a></li>
-      </ul>
+      <nav class="navigation">
+        <ul class="burgerMenu__menu">
+          <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">О компании</a></li>
+          <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">Услуги</a></li>
+          <li class="burgerMenu__item"><a href="#" class="navigation__link" target="_blank">Контакты</a></li>
+        </ul>
+      </nav>
     </section>
 
   </body>

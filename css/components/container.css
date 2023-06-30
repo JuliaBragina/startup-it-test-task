@@ -1,0 +1,19 @@
+.container{
+  max-width: 83.3%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+    max-width: 95.8%;
+  }
+
+  .container_direction_column{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
