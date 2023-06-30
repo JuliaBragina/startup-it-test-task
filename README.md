@@ -6,3 +6,4 @@
 - Макет проекта - /task/Макет проекта.fig
 
 ## GitHub Pages:
+https://juliabragina.github.io/startup-it-test-task/
